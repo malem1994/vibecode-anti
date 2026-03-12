@@ -35,7 +35,7 @@ export function FeatureSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
           transition={{ duration: 1.2 }}
-          className="relative z-10 max-w-5xl px-6 text-center font-[var(--font-instrument-serif)] text-5xl italic leading-[0.85] tracking-tighter text-white md:text-8xl lg:text-9xl"
+          className="relative z-10 max-w-5xl px-6 text-center font-serif text-[2.75rem] italic leading-[0.85] tracking-[-1.76px] text-white md:text-[5rem] md:tracking-[-4px] lg:text-[5rem]"
         >
           Sound is not just heard — it moves through you. It breathes, it
           glows, it becomes part of who you are.
@@ -58,7 +58,7 @@ export function FeatureSection() {
             className="object-cover opacity-80"
             sizes="(max-width: 1024px) 100vw, 900px"
           />
-          <span className="absolute left-8 top-8 font-[var(--font-roboto-mono)] text-[10px] uppercase tracking-widest text-morae-orange">
+          <span className="absolute left-8 top-8 font-mono text-sm uppercase tracking-[-0.28px] text-morae-orange">
             [ The Core ]
           </span>
         </motion.div>

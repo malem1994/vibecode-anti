@@ -30,7 +30,7 @@ export function FloatingShopBar() {
 
   return (
     <div
-      className="fixed bottom-6 left-1/2 z-50 flex h-16 w-[calc(100%-2rem)]
+      className="shadow-morae fixed bottom-6 left-1/2 z-50 flex h-16 w-[calc(100%-2rem)]
                   max-w-2xl -translate-x-1/2 items-center justify-between
                   border border-white/10 bg-zinc-900/90 px-4 backdrop-blur-xl md:px-6"
     >
@@ -58,7 +58,7 @@ export function FloatingShopBar() {
         </div>
 
         <div className="flex flex-col">
-          <span className="font-[var(--font-instrument-serif)] text-[11px] leading-none text-white">
+          <span className="font-serif text-[11px] leading-none text-white">
             MORAE Headphone
           </span>
           <div className="mt-1 flex gap-2">
@@ -67,7 +67,7 @@ export function FloatingShopBar() {
                 key={v.id}
                 onClick={() => setActiveVariant(v)}
                 className={cn(
-                  "font-[var(--font-roboto-mono)] text-[9px] transition-colors",
+                  "font-mono text-[9px] tracking-[-0.28px] transition-colors",
                   activeVariant.id === v.id
                     ? "text-white"
                     : "text-white/35 hover:text-white/60",
@@ -83,10 +83,10 @@ export function FloatingShopBar() {
       {/* Price + controls */}
       <div className="flex items-center gap-4 md:gap-6">
         <div className="hidden flex-col items-end sm:flex">
-          <span className="font-[var(--font-roboto-mono)] text-[11px] text-white">
+          <span className="font-mono text-[11px] tracking-[-0.28px] text-white">
             $259.00
           </span>
-          <button className="font-[var(--font-roboto-mono)] text-[9px] text-morae-orange underline underline-offset-2">
+          <button className="font-mono text-[9px] tracking-[-0.28px] text-morae-orange underline underline-offset-2 hover:text-morae-orange-hover">
             More Details
           </button>
         </div>
@@ -99,7 +99,7 @@ export function FloatingShopBar() {
           >
             <Minus size={12} />
           </button>
-          <span className="w-3 text-center font-[var(--font-roboto-mono)] text-xs text-white">
+          <span className="w-3 text-center font-mono text-xs tracking-[-0.28px] text-white">
             {quantity}
           </span>
           <button

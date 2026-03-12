@@ -39,13 +39,13 @@ export function ProductViewer() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <span className="mb-4 block font-[var(--font-roboto-mono)] text-[10px] uppercase tracking-[0.2em] text-morae-orange">
+            <span className="mb-4 block font-mono text-sm uppercase tracking-[-0.28px] text-morae-orange">
               [ 4 ]
             </span>
-            <h2 className="mb-6 font-[var(--font-instrument-serif)] text-4xl italic leading-tight text-white md:text-5xl">
+            <h2 className="mb-6 font-serif text-[2.75rem] italic leading-[1.1] tracking-[-1.76px] text-white md:text-[3.5rem] md:tracking-[-2.8px]">
               / Intuitive Touch Controls
             </h2>
-            <p className="max-w-md font-[var(--font-roboto-mono)] text-sm uppercase leading-relaxed text-white/40">
+            <p className="max-w-md font-mono text-sm uppercase leading-[1.2] tracking-[-0.28px] text-white/40">
               No buttons. Just gestures. Smooth, natural, and quietly precise.
             </p>
           </motion.div>
@@ -56,13 +56,13 @@ export function ProductViewer() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="mb-4 block font-[var(--font-roboto-mono)] text-[10px] uppercase tracking-[0.2em] text-morae-orange">
+            <span className="mb-4 block font-mono text-sm uppercase tracking-[-0.28px] text-morae-orange">
               [ 5 ]
             </span>
-            <h2 className="mb-6 font-[var(--font-instrument-serif)] text-4xl italic leading-tight text-white md:text-5xl">
+            <h2 className="mb-6 font-serif text-[2.75rem] italic leading-[1.1] tracking-[-1.76px] text-white md:text-[3.5rem] md:tracking-[-2.8px]">
               / Adaptive Smart Sound Balance
             </h2>
-            <p className="max-w-md font-[var(--font-roboto-mono)] text-sm uppercase leading-relaxed text-white/40">
+            <p className="max-w-md font-mono text-sm uppercase leading-[1.2] tracking-[-0.28px] text-white/40">
               Every space has a tone. It learns and adjusts — so you don&apos;t have to.
             </p>
           </motion.div>
